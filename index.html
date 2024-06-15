@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Profile</title>
+</head>
+<body>
+    <header>
+        <h1>My Profile</h1>
+    </header>
+    <div class="container">
+        <div class="grid">
+            <div class="grid-item">
+                <h2><button class="accordion">나의 스킬</button></h2>
+                <div class="panel">
+                    <h3 class="panel-title">나의 스킬</h3>
+                    <ul id="skills-list"></ul>
+                </div>
+            </div>
+            <div class="grid-item">
+                <h2><button class="accordion">수행한 프로젝트</button></h2>
+                <div class="panel">
+                    <h3 class="panel-title">수행한 프로젝트</h3>
+                    <ol id="projects-list"></ol>
+                </div>
+            </div>
+            <div class="grid-item">
+                <h2><button class="accordion">앞으로 할 프로젝트</button></h2>
+                <div class="panel">
+                    <h3 class="panel-title">앞으로 할 프로젝트</h3>
+                    <ol id="upcoming-projects-list"></ol>
+                </div>
+            </div>
+            <div class="grid-item">
+                <h2><button class="accordion">희망 직무</button></h2>
+                <div class="panel">
+                    <h3 class="panel-title">희망 직무</h3>
+                    <ul id="desired-role">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/content.js"></script>
+</body>
+</html>
